@@ -1,2 +1,13 @@
 <!--pages/Home.wxml-->
-<text>Home.wxml</text>
+<!-- 小程序初体验 -->
+<!-- 变量声明 -->
+<view>hello {{link}}</view>
+
+<!-- 数组声明 -->
+<view wx:for="{{arr}}">{{item.name}}</view>
+
+
+<!-- 事件监听 -->
+<view>{{link}}</view>
+<button size="mini" bindtap="increat">+</button>
+<button size="mini" bindtap="decreat">-</button>
