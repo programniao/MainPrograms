@@ -1,3 +1,10 @@
 <!--pages/Home.wxml-->
-<text>Home.wxml</text>
+<text>配置小程序|</text>
+<!-- 
+  常见配置文件 有（前两种修改比较少）
+  project.config.json 项目配置文件 比如项目名称 APPid等
+  sitemap.json 小程序搜索相关
+  app.json 全局配置
+  page.json 页面配置
+ -->
 
