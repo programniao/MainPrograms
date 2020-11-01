@@ -1,3 +1,5 @@
 <!--pages/Home.wxml-->
 <text>Home.wxml</text>
 
+<!-- 获取用户信息 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="getUser">获取</button>
